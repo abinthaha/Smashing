@@ -1,0 +1,140 @@
+$main_heading_font : 'Merriweather', serif;
+$ul_heading : 'Montserrat', sans-serif;
+$li_childs : 'Lato', sans-serif;
+$inactive_font : 'Raleway', sans-serif;
+$li_childs_color : #35c4d8;
+
+$content_header_font : 'Lora', serif;
+$sub_title_font: 'Roboto Slab', serif;
+$content_font : 'Droid Serif', serif;
+$sub_content_font : 'Open Sans', sans-serif;
+$side-menu-font : 'Raleway', sans-serif;
+$footer_font: 'Roboto', sans-serif;
+
+$grey1: #333;
+$grey2: #777;
+$grey3: #a1a1a1;
+$grey4: #bfbcbc;
+$grey5: #dddddd;
+$grey6 : #F3F3F3;
+
+body {
+  background-image: url(http://media.mediatemple.netdna-cdn.com/wp-content/themes/smashing-magazine/assets/images/smbg.png);
+  margin-top: 0px;
+}
+
+#page_header {
+    padding: 20px 10px;
+    .logo {
+        width: 50%;
+        float: left;
+
+        img {
+            width: 90%;
+        }
+    }
+    #buttons {
+        float: right;
+        width: 40%;
+
+        #search {
+            height: 20px;
+            width: 30px;
+            padding: 15px 5px 2px 10px;
+
+            img {
+                height: 25px;
+                width: 25px;
+            }
+        }
+
+        #menu_button {
+            right: 10px;
+            line-height: 30px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            color: white;
+            padding: 9px 7px;
+            margin-left: 5%;
+        }
+    }
+}
+
+.btn {
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.btn-red {
+  background: #e95c33;
+  border: .08em solid #c73a11;
+  box-shadow: 0 .08em .08em rgba(0,0,0,.25);
+  width: 42px;
+  padding: 5px 8px;
+  cursor: pointer;
+  height: 27px;
+
+  &:hover {
+    border: .12em solid #c73a11;
+    box-shadow: 0 .08em .08em rgba(0,0,0,.5);
+  }
+}
+
+.btn-blue {
+  background-color: rgb(65, 183, 216);
+  box-shadow: 0 .08em .08em rgba(0,0,0,.25);
+  width: 120px;
+  color: white;
+  font-size: 19px;
+  font-family: $sub_content_font;
+  line-height: 1.5;
+  margin-top: 30px;
+  padding: 5px 8px;
+  border: .06em solid $grey4;
+  cursor: pointer;
+  height: 27px;
+
+  &:hover {
+    border: .06em solid $grey3;
+    box-shadow: 0 .08em .08em rgba(0,0,0,.5);
+  }
+}
+
+.btn-inactive {
+  background-color: white;
+  width: 120px;
+  color: rgb(65, 183, 216);
+  font-size: 19px;
+  font-family: $sub_content_font;
+  line-height: 1.5;
+  margin-top: 30px;
+  padding: 5px 8px;
+  cursor: pointer;
+  height: 27px;
+
+  &:hover {
+    background: rgb(65, 183, 216);
+    color: white;
+  }
+}
+
+.btn-next {
+  height: 30px;
+  width: 80px;
+  background: linear-gradient(#e95c33, rgba(248,33,3,0.8));
+  margin-top: 10px;
+  line-height: 2em;
+  letter-spacing: 1px;
+  color: white;
+  font-weight: 500;
+  font-family: $inactive_font;
+  font-size: 16px;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+}
